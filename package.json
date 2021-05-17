@@ -1,0 +1,21 @@
+{
+  "name": "ftr_developer_coding_test",
+  "version": "1.0.0",
+  "description": "Developer coding test for For The Record, for Christy Wall",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Christy Wall",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/big.js": "^6.0.2",
+    "@types/node": "^15.3.0",
+    "big.js": "^6.1.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
